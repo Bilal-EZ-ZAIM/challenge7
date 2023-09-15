@@ -25,9 +25,9 @@ int main()
     printf("erivez le nomber ");
     scanf("%d", &number);
     
-    // nub % 10 = akhir ra9m
-    // num / 100 = awl ra9m
-    // (num / 10 ) % 10 = ra9m alwasat
+    // last number nub % 10 = a
+    // num / 100 = first number
+    // (num / 10 ) % 10 = secend number
     
     inverse = (number % 10) * 100 + ((number / 10) % 10) * 10 + number / 100;
     
